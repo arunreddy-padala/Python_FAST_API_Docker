@@ -1,12 +1,15 @@
-# Python_FAST_API_Docker: 
+# Data_Management_Application_Python
 
-Tools and Frameworks: FAST API, SQL Alchemy, Alembic, PostgresDB, PGAdmin, Docker. 
+This application is a robust data management system that utilizes FastAPI for backend operations, SQLAlchemy for database interactions, and Docker for containerization, ensuring a scalable and efficient environment for handling data.
 
-1. Built SQL tables in Python classes using SQL Alchecmy to connect to DB and insert data. 
-2. FAST API to get the data and store it in the database. 
-3. Dockers to run containerised applications. 
-4. Alembic to help with data migration i.e; Get the data from API and load into the DB. 
-5. PGAdmin to administer PotsgresDB deployed on the container. 
+Tools and Frameworks: FastAPI, SQLAlchemy, Alembic, PostgresDB, PGAdmin, Docker
+
+Features
+- Database Integration: Leverages SQLAlchemy to define and manipulate SQL tables directly from Python classes, facilitating seamless data insertion and management.
+- API Interactions: Utilizes FastAPI to efficiently handle requests and store data in the database, providing a powerful and easy-to-use interface.
+- Data Migration: Employs Alembic for smooth data migration, ensuring data integrity and consistency during transfers from the API to the database.
+- Database Administration: Uses PGAdmin for convenient administration of the PostgreSQL database within Docker containers, enhancing database management capabilities.
+- Containerization: Implements Docker to run applications in isolated environments, improving deployment efficiency and scalability.
 
 
 
